@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.sq-id {
+    background-color: white;
+    padding: .3em;
+}
+
+button {
+    margin: 1em;
+}
