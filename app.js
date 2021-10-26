@@ -8,9 +8,6 @@ document.body.appendChild(container);
 let numsquares = 0;
 let squares = document.querySelectorAll("div.square");
 
-// listens for a button click to add square
-button.addEventListener("click", addSquare);
-
 // listens for user clicking square, which changes its color
 button.addEventListener("click", addSquare);
 
@@ -20,7 +17,6 @@ function addSquare() {
     sq.className = "square";
     sq.id = ++numsquares;
     container.appendChild(sq);
-    document.body.appendChild(container);
     squares = document.querySelectorAll("div.square");
     squares.forEach(function (square) {
         square.addEventListener("mouseenter", displayId);
